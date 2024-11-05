@@ -1,14 +1,24 @@
 {
-  "name": "my-taxi-app",
+  "name": "nyc-yellow-taxi",
   "version": "0.1.0",
+  "author": "Novandi Ramadhan",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "leaflet": "^1.9.4",
+    "moment": "^2.30.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
+    "react-tailwindcss-datepicker": "^1.7.2",
+    "react-tailwindcss-select": "^1.8.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwindcss": "^3.4.14"
   }
 }
