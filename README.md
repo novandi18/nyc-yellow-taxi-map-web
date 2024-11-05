@@ -76,6 +76,11 @@ npm run start
 
 ---
 
+### Demo
+[https://nyc-yellow-taxi.netlify.app/](https://nyc-yellow-taxi.netlify.app/)
+
+---
+
 ## Notes
 - Ensure both frontend and backend servers are running for complete functionality.
 - For any issues, consult the [NYC Open Data API Documentation](https://dev.socrata.com/foundry/data.cityofnewyork.us/gkne-dk5s).
