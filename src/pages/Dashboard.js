@@ -17,7 +17,7 @@ function Dashboard() {
     setIsRetrying(false);
     const fetchTrips = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/trips', { params: filters });
+        const response = await axios.get(`${process.env.API_ENDPOINT}/trips`, { params: filters });
         setTrips(response.data.data);
         setIsLoading(false);
       } catch (error) {
