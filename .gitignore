@@ -1,1 +1,22 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Production build
+build/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# System files
+.DS_Store
+
+# Misc
+*.log
